@@ -28,7 +28,7 @@ contract TokenStaking {
     //array of all stakers
     address[] public Stakers;
 
-    constructor(TestToken _testToken) public payable {
+    constructor(TestToken _testToken) payable {
         testToken = _testToken;
 
         //assigning owner on deployment
